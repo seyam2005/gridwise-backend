@@ -12,7 +12,7 @@ LLM-assisted energy scheduling API for BUP CSE Fest 2026.
 
 ```bash
 pip install -r requirements.txt
-export GEMINI_API_KEY="AQ.Ab8RN6KB3p6HUy2YrFAm7IhR1qvyxQbVnbFT3nKGqjRUSPgBZQ"
+export GEMINI_API_KEY="your_api_key"
 uvicorn main:app --host 0.0.0.0 --port 8001
 
 ## Endpoints
